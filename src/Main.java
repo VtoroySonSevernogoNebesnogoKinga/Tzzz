@@ -15,7 +15,7 @@ class Main {
         String s = sc.nextLine();
 
         calc(s);
-        System.out.println("Result: " + finalResult);
+        System.out.println("Result: \n" + finalResult);
     }
 
     public static String calc(String input) throws Exception {
